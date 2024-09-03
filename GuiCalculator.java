@@ -382,7 +382,7 @@ private void initialize() {
     bSin.setBounds(178, 138, 77, 49);
     f.getContentPane().add(bSin);
 
-    JButton bSinH = new JButton("Sinh");
+    JButton bSinH = new JButton("Sinh");// Hyperbolic Sin
     bSinH.setFont(new Font("Verdana", Font.BOLD, 15));
     bSinH.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e) {
@@ -406,7 +406,7 @@ private void initialize() {
     bCos.setBounds(265, 138, 77, 49);
     f.getContentPane().add(bCos);
 
-    JButton bCosH = new JButton("Cosh");
+    JButton bCosH = new JButton("Cosh");// Hyperbolic Cos
     bCosH.setFont(new Font("Verdana", Font.BOLD, 15));
     bCosH.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e) {
